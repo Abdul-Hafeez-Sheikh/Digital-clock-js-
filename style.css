@@ -1,0 +1,34 @@
+body {
+    background-color: #000818;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+h1 {
+    color: rgb(135, 102, 187);
+    box-shadow: #a79fc4;
+}
+.clock {
+    display: flex;
+    justify-content: center;  
+    align-items:center;    
+    gap: 30px;     
+    text-align: center;
+    padding: 40px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 3px solid #111;
+    border-radius: 10px;
+    background-color: #180461;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.hours,.min,.sec{
+color: rgb(167, 98, 8);
+font-size: 60px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+}
